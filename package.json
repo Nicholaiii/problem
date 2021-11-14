@@ -1,6 +1,6 @@
 {
-  "name": "@curveball/problem",
-  "version": "0.3.0",
+  "name": "@ocalan/problem",
+  "version": "0.3.1",
   "description": "A middleware for converting errors into application/problem+json",
   "main": "dist/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/curveball/problem.git"
+    "url": "git+https://github.com/nicholaiii/problem.git"
   },
   "files": [
     "package.json",
@@ -36,9 +36,9 @@
   "author": "Evert Pot (https://evertpot.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/curveball/problem/issues"
+    "url": "https://github.com/nicholaiii/problem/issues"
   },
-  "homepage": "https://github.com/curveball/problem#readme",
+  "homepage": "https://github.com/nicholaiii/problem#readme",
   "devDependencies": {
     "@curveball/core": "^0.16.1",
     "@types/chai": "^4.2.15",

@@ -1,6 +1,8 @@
 Curveball Problem Middleware
 ===========================
 
+### **NOTE**: Published with updated typings, forked from [the original module][4]. This version will deprecate once merged.
+\
 This package is a middleware for the [Curveball][2] framework that catches any
 exception and turns them into `application/problem+json` responses, as defined
 in [RFC7807][1].
@@ -12,14 +14,14 @@ To create a more specific error, use an exception from the
 Installation
 ------------
 
-    npm install @curveball/problem
+    npm install @ocalan/problem
 
 
 Getting started
 ---------------
 
 ```typescript
-import problemMw from '@curveball/problem';
+import problemMw from '@ocalan/problem';
 import { Application } from '@curveball/core';
 
 const app = new Application();
@@ -83,3 +85,4 @@ app.use(problemMw({
 [1]: https://tools.ietf.org/html/rfc7807
 [2]: https://github.com/curveball/
 [3]: https://github.com/curveball/http-errors
+[4]: https://github.com/curveball/problem
