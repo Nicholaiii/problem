@@ -4,7 +4,7 @@
   "description": "A middleware for converting errors into application/problem+json",
   "main": "dist/index.js",
   "scripts": {
-    "prepublishOnly": "make build",
+    "prepublishOnly": "tsc",
     "test": "make lint test",
     "tsc": "tsc",
     "start": "make start"
